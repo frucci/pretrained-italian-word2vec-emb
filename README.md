@@ -45,9 +45,8 @@ def easy_cleaning(sentence):
 ```
 
 # Tutorials
-* [link](https)
-* [link](https)
-* [link](https)
+* [Sentiment Analysis](https://github.com/frucci/pretrained-italian-word2vec-emb/blob/master/example/sentiment_analysis.ipynb)
+* [Words Clustering](https://github.com/frucci/pretrained-italian-word2vec-emb/blob/master/example/word_clustering.ipynb)
 
 # Suggestions
 
