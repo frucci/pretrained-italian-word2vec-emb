@@ -1,7 +1,5 @@
 # pretrained-italian-word2vec-emb
 
-# COMING SOON... # 
-
 A pretrained word2vec embeddings for italian languages.
 
 This repositoy has one big purpose: in the last years I've had the possibility to work on NLP projects. I've spend a significant portion of my time looking for a decent pre-trained word vectors model for the Italian language. The faster solution I found was to make it on my own.
@@ -28,9 +26,22 @@ I've decided to start with an easy cleaning:
 
 # Usage 
 
+Loading model:
+
 ``` python
 from gensim.models import KeyedVectors
 model2vec = KeyedVectors.load_word2vec_format("./PATH_HERE/pretrained-italian-word2vec-emb-300.bin", binary = True)
+```
+
+
+Comparable cleaning function:
+
+``` python
+def easy_cleaning(sentence):
+    sentence = " ".join([word for word in sentence.split() if not any(x in word for x in ["@","#","http",".ly"])])
+    sentence = re.sub(r"[^a-zA-Z\à\è\é\ì\ò\ù ]+", " ", sentence)
+    sentence = re.sub(r" +"," ",sentence).strip().lower()
+    return sentence
 ```
 
 # Tutorials
