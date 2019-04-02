@@ -30,7 +30,7 @@ I've decided to start with an easy cleaning:
 
 ``` python
 from gensim.models import KeyedVectors
-model2vec = KeyedVectors.load_word2vec_format("./PATH_HERE/NAME_FILE.bin", binary = True)
+model2vec = KeyedVectors.load_word2vec_format("./PATH_HERE/pretrained-italian-word2vec-emb-300.bin", binary = True)
 ```
 
 # Tutorials
