@@ -2,6 +2,8 @@
 
 A pretrained word2vec embeddings for italian languages.
 
+Unfortunately the file is too large. You can find the model available in free download on MegaShare here [pretrained-italian-word2vec-emb downloader](	https://megashare.megahd.com.br/72d)
+
 This repositoy has one big purpose: in the last years I've had the possibility to work on NLP projects. I've spend a significant portion of my time looking for a decent pre-trained word vectors model for the Italian language. The faster solution I found was to make it on my own.
 
 In this repository you can easily download (a not so light version of) a pre-trained 300-dimensional word vectors model (trained using word2vec) for Italian.
