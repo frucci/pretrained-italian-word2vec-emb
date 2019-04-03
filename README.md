@@ -12,6 +12,8 @@ Vectors are trained using almost 24 milion of unique sentences, collected during
 It's possible to see also extra-italian language words inside the vocabulary. This is because original texts may contain some foreign sentences.
 I hope you will find my job useful for your purpose as well.
 
+[![linkedin1.png](https://i.postimg.cc/fWKkcQdW/linkedin1.png)](https://postimg.cc/4nYJGMwj)
+
 # Cleaning rules
 
 I've decided to start with an easy cleaning:
