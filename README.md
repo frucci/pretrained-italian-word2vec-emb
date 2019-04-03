@@ -40,7 +40,7 @@ Comparable cleaning function:
 
 ``` python
 def easy_cleaning(sentence):
-    sentence = " ".join([word for word in sentence.split() if not any(x in word for x in ["@","#","http",".ly"])])
+    sentence = " ".join([word for word in sentence.split() if not any(x in word for x in ["@","#","http",".ly","www"])])
     sentence = re.sub(r"[^a-zA-Z\à\è\é\ì\ò\ù ]+", " ", sentence)
     sentence = re.sub(r" +"," ",sentence).strip().lower()
     return sentence
