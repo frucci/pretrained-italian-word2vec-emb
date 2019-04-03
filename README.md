@@ -8,7 +8,7 @@ This repositoy has one big purpose: in the last years I've had the possibility t
 
 In this repository you can easily download (a not so light version of) a pre-trained 300-dimensional word vectors model (trained using word2vec) for Italian.
 
-Vectors are trained using almost 24 milion of unique sentences, collected during the last year, enconding almost 110K different words. 
+Vectors are trained using almost 24 milion of unique sentences, collected during the last year, enconding almost 110K different words. Words with occurences lower than 50 have been removed from the training.
 It's possible to see also extra-italian language words inside the vocabulary. This is because original texts may contain some foreign sentences.
 I hope you will find my job useful for your purpose as well.
 
