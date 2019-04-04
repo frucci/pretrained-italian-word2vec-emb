@@ -10,7 +10,7 @@ In this repository you can easily download (a not so light version of) a pre-tra
 
 [![linkedin1.png](https://i.postimg.cc/fWKkcQdW/linkedin1.png)](https://postimg.cc/4nYJGMwj)
 
-Vectors are trained using almost 24 milion of unique sentences, collected during the last year, enconding almost 110K different words. Words with occurrences lower than 50 have been removed from the training.
+Vectors have been trained using almost 24 milion of unique sentences, collected during the last year, enconding almost 110K different words. Words with occurrences lower than 50 have been removed from the training.
 It's possible to see also extra-italian language words inside the vocabulary. This is because original texts may contain some foreign sentences.
 I hope you will find my job useful for your purpose as well.
 
